@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(./images/bg-pattern-top-desktop.svg);
+  font-size: 15px;
+  background-color: white;
+}
+
+.container {
+  /* border: 2px solid black; */
+  width: 80%;
+  margin: 10vh auto;
+  height: 80vh;
+  padding: 40px;
+}
+
+.top {
+  display: flex;
+  margin-bottom: 30px;
+}
+
+.head {
+  width: 400px;
+  /* border: 1px solid black; */
+}
+
+.main_heading {
+  color: hsl(300, 43%, 22%);
+  font-size: 55px;
+  line-height: 60px;
+}
+
+.para {
+  color: hsl(303, 10%, 53%);
+  margin-top: 10px;
+  word-spacing: 2px;
+}
+
+.rating {
+  margin-top: 15px;
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid black; */
+}
+
+.rate1 {
+  align-self: start;
+}
+
+.rate2 {
+  align-self: center;
+}
+
+.rate3 {
+  align-self: end;
+}
+
+.rate1,
+.rate2,
+.rate3 {
+  display: flex;
+  /* border: 1px solid black; */
+  width: 420px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  padding: 15px;
+  background-color: hsl(300, 24%, 96%);
+  margin-left: 200px;
+  align-items: center;
+}
+
+.rate_para {
+  color: hsl(300, 43%, 22%);
+  font-weight: bold;
+}
+
+.star {
+  margin-right: 25px;
+  margin-left: 25px;
+}
+
+.cards {
+  /* border: 1px solid black; */
+  display: flex;
+  justify-content: space-between;
+  height: 250px;
+}
+
+.card_img {
+  width: 40px;
+  border-radius: 50%;
+}
+
+.card1_flex,
+.card2_flex,
+.card3_flex {
+  display: flex;
+  margin-bottom: 15px;
+}
+
+.card1,
+.card2,
+.card3 {
+  background-color: hsl(300, 43%, 22%);
+  border-radius: 10px;
+  width: 350px;
+  height: 220px;
+  padding: 30px;
+  /* border: 1px solid black; */
+}
+
+.card2 {
+  align-self: center;
+}
+
+.card3 {
+  align-self: flex-end;
+}
+
+.card1_right,
+.card2_right,
+.card3_right {
+  margin-left: 25px;
+}
+
+.buyer_name,
+.card_para {
+  color: hsl(300, 24%, 96%);
+  word-spacing: 2px;
+}
+
+.vbuyer {
+  color: hsl(333, 80%, 67%);
+}
